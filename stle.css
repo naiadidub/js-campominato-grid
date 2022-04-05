@@ -1,23 +1,33 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-header{
-    height: 100px;
-    width: 100%;
-}
-#app{
-    width:30vw;
-    height: 50vh;
+header {
+    height: 80px;
+  }
+  header img {
+    height: 60px;
+  }
+  main {
+    height: calc(100vh - 140px);
+    min-height: 500px;
+    background-color: aquamarine;
+    overflow-y: auto;
+  }
+  
+  footer {
+    height: 60px;
+  }
+  footer a {
+    padding-left: 10px;
+  }
+  .gridrow {
+    width: 500px;
+    height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .box {
+    /*width: calc(100% / 10);
+    height: calc(100% / 10);*/
     border: 1px solid black;
-}
-.stileCol{
-    width: calc(100% / 10);
-    height: 30px;
-    text-align: center;
-    border: 1px solid black;
-}
-.bluecolor{
-    background-color: aqua;
-}
+  }
+  .pointer {
+    cursor: pointer;
+  }
