@@ -1,23 +1,4 @@
-/*
-L'utente indica un livello di difficoltà in base al quale viene generata una griglia di gioco quadrata, in cui ogni cella contiene un numero tra quelli compresi in un range:
-con difficoltà 1 => tra 1 e 100
-con difficoltà 2 => tra 1 e 81
-con difficoltà 3 => tra 1 e 49
-Quando l'utente clicca su ogni cella, la cella cliccata si colora di azzurro.
 
-
-1. al click sul bottone play avvio il gioco
-
-2.avvio il gioco: prendo l'input del livello di gioco dall'utente  setto il livello del gioco 
-e a seconda del livello selezionato definisco quanti quadratini devo creare e quante celle per lato avrà la mia griglia
-
-3.creare la griglia di dimensioni uguali a quelle scelte quindi per ogni cella
-
-4. creare la cella ed impostare la classe di base e altezza e larghezza; e ritornare la cella creata
-
-5. al click colorare la cella 
-
-*/
 function setLevel(event) {
     //console.log(this);
     //console.log(event.target);
